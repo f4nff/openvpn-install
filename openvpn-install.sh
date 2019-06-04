@@ -308,6 +308,7 @@ user nobody
 group $GROUPNAME
 persist-key
 persist-tun
+duplicate-cn
 status openvpn-status.log
 verb 3
 crl-verify crl.pem" >> /etc/openvpn/server.conf
